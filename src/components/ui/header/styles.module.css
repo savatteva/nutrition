@@ -1,0 +1,35 @@
+@import "../../../css/variables.css";
+
+.header {
+  background-color: var(--accent-color);
+  color: var(--text-for-accent-color);
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.text {
+  margin: 0;
+}
