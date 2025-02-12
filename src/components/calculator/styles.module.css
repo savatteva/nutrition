@@ -1,0 +1,9 @@
+@import "../../css/variables.css";
+
+.accentColor {
+  color: var(--accent-color);
+}
+
+.textBold {
+  font-weight: 700;
+}

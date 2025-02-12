@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router"
-import { Header } from "../header"
 import styles from "./App.module.css"
-import { CalculatorPage, MainPage, RecipesPage } from "../../pages"
+import { CalculatorPage, MainPage, RecipesPage, TrainingPage } from "../../pages"
+import { Header } from "../header/header"
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
       <Route path="/" element={<MainPage />}/>
       <Route path="/calculator" element={<CalculatorPage />}/>
       <Route path="/recipes" element={<RecipesPage />} />
+      <Route path="/training" element={<TrainingPage />} />
     </Routes>
   </div>
   )

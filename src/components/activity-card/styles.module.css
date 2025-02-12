@@ -1,0 +1,12 @@
+@import "../../css/variables.css";
+
+.activity {
+  background-color: var(--bg-color);
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 400px;
+}
+
+.accentColor {
+  color: var(--accent-color);
+}

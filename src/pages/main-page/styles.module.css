@@ -1,3 +1,29 @@
 .main {
   width: 100%;
 }
+
+.background {
+  background-image: url("../../images/photo-1488459716781-31db52582fe9.avif");
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+  font-family: monospace;
+  position: relative;
+}
+
+.mainHeading {
+  color: var(--text-for-accent-color);
+  font-size: 45px;
+  position: relative;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  inset: 0;
+}

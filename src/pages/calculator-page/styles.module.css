@@ -1,0 +1,21 @@
+@import "../../css/variables.css";
+
+.heading {
+  font-size: var(--heading-size);
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 50px;
+}
+
+@media (width <= 700px) {
+  .section {
+    flex-direction: column;
+  }
+}
